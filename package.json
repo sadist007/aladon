@@ -1,0 +1,43 @@
+{
+  "name": "bejewled",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "cross-env NODE_ENV=production nodemon ./bin/www",
+    "start-ddev": "cross-env NODE_ENV=dev DEBUG=* nodemon ./bin/www",
+    "start-dev": "cross-env NODE_ENV=dev nodemon ./bin/www"
+  },
+  "dependencies": {
+    "body-parser": "~1.15.1",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.2.0",
+    "express": "~4.13.4",
+    "jade": "~1.11.0",
+    "morgan": "~1.7.0",
+    "node-sass-middleware": "~0.8.0",
+    "bootstrap": "4.0.0-alpha.5",
+    "serve-favicon": "~2.3.0",
+    "mongodb": "*",
+    "mongoose": "*",
+    "strftime": "*",
+    "nconf": "*",
+    "request": "*",
+    "sprintf-js": "*",
+    "bluebird": "*",
+    "cors": "*",
+    "serve-favicon": "~2.3.0",
+    "https": "*",
+    "express-session": "*",
+    "md5": "*",
+    "bcrypt": "*",
+    "passport": "*",
+    "passport-google-oauth20": "*",
+    "passport-facebook": "*",
+    "passport-vkontakte": "*",
+    "passport-local": "*",
+    "mc": "*",
+    "socket.io": "*",
+    "lokijs": "*",
+    "cross-env": "*"
+  }
+}
