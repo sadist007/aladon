@@ -1,9 +1,60 @@
 extends layout
 
 block content
-  h1= title
-  form(action="/zone", method="post")
-    input(name="name")
-    input(name="minLev", value="0")
-    input(name="maxLev", value="70")
-    input(name="authors")
+
+    div#zoneForm.modal(tabindex="-1", role="dialog", aria-labelledby="zoneFormTitle", aria-hidden="true")
+        div.modal-dialog(role="document")
+            div.modal-content
+                div.modal-header
+                    h5#zoneFormTitle.modal-title Описание зоны
+                    button.close(type="button", data-dismiss="modal", aria-label="Close")
+                        span(aria-hidden="true") &times;
+                div.modal-body
+                    div.container-fluid
+                        div.form-group.row
+                            label.col-sm-3.text-right Название
+                            div.col-sm-9
+                                input.form-control(name="name")
+                        div.form-group.row
+                            label.col-sm-3.text-right Авторы
+                            div.col-sm-9
+                                input.form-control(name="authors")
+                        div.form-group.row
+                            label.col-sm-3.text-right Квестовый
+                            div.col-sm-9
+                                div.form-check
+                                    label.form-check-label
+                                        input.form-check-input(type="checkbox", value="1")
+                        div.form-group.row
+                            label.col-sm-6.text-right Минимальный уровень
+                            div.col-sm-2
+                                input.form-control(name="minLev", value="0")
+                        div.form-group.row
+                            label.col-sm-6.text-right Максимальный уровень
+                            div.col-sm-2
+                                input.form-control(name="maxLev", value="70")
+                div.modal-footer
+                    button.btn.btn-secondary(type="button", data-dismiss="modal")
+                        Закрыть
+                    button.btn.btn-primary(type="button")
+                        Сохранить
+    div.container
+        nav.navbar.sticky-top.navbar-toggleable-md.navbar-light.bg-primary
+            button.navbar-toggler.navbar-toggler-right(type="button", data-toggle="collapse", data-target="#navbarSupportedContent", aria-controls="navbarSupportedContent", aria-expanded="false", aria-label="Toggle navigation")
+                span.navbar-toggler-icon
+            a.navbar-brand(href="#")
+                АЛАДОН: #{title}
+            div#navbarSupportedContent.collapse.navbar-collapse
+                ul.navbar-nav.mr-auto
+                    li.nav-item.active
+                        a.nav-link(href="#")
+                            Home
+                    li.nav-item
+                        a.nav-link(href="#")
+                            Link
+
+        each zone in zones
+            h4= zone.name
+        
+        button.btn.btn-primary(type="button", data-toggle="modal", data-target="#zoneForm")
+            Launch demo modal

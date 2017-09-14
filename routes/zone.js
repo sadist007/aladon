@@ -4,8 +4,15 @@ const express = require('express');
 const router  = express.Router();
 const mZone   = require('../models/zone.js');
 
+router.get('/', function (req, res, next) {
+	mZone.find({}, function (err, docs) {
+		res.render('zone', {title: 'Зоны', zones: docs});
+	});
+});
+
 router.get('/all', function(req, res, next) {
-	mZone.find({}, function (err, doc) {
+	mZone.find({}, function (err, docs) {
+		res.json({result: 'O', data: docs});
 	});
 });
 
