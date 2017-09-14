@@ -1,0 +1,9 @@
+extends layout
+
+block content
+  h1= title
+  form(action="/zone", method="post")
+    input(name="name")
+    input(name="minLev", value="0")
+    input(name="maxLev", value="70")
+    input(name="authors")

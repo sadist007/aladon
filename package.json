@@ -20,12 +20,9 @@
     "mongodb": "*",
     "mongoose": "*",
     "strftime": "*",
-    "nconf": "*",
     "request": "*",
     "sprintf-js": "*",
-    "bluebird": "*",
     "cors": "*",
-    "serve-favicon": "~2.3.0",
     "https": "*",
     "express-session": "*",
     "md5": "*",
@@ -36,8 +33,7 @@
     "passport-vkontakte": "*",
     "passport-local": "*",
     "mc": "*",
-    "socket.io": "*",
-    "lokijs": "*",
-    "cross-env": "*"
+    "cross-env": "*",
+    "method-override": "*"
   }
 }
