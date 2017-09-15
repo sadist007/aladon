@@ -59,6 +59,9 @@ block content
                             Link
 
         each zone in zones
-            h6= zone.name
+            div
+                span #{zone.minLev} &ndash; #{zone.maxLev}
+                span #{zone.authors}
+                span #{zone.name}
         
         button#insertZone.btn.btn-primary(type="button") Launch demo modal
