@@ -9,31 +9,58 @@ const Schema = Mongoose.Schema;
 const Mixed = Schema.Types.Mixed;
 const ObjectId = Schema.Types.ObjectId;
 
-const Mob = new Schema({
+const Npc = new Schema({
     name: {
         type: String,
         default: null,
         trim: true,
         required: true
     },
-    minLev: {
+    short: {
+        type: String,
+        default: null,
+        trim: true
+    },
+    level: {
         type: Number,
         default: 1
     },
-    maxLev: {
-        type: Number,
-        default: 0
-    },
-    authors: {
+    align: {
         type: String,
-        default: null,
-        trim: true
+        enum: ['e', 'n', 'g'],
+        default: 'n'
     },
-    quest: [],
+    agressive: {
+        type: Boolean,
+        default: false
+    },
+    support: {
+        type: Boolean,
+        default: false
+    },
+    invisible: {
+        type: Boolean,
+        default: false
+    },
+    hidden: {
+        type: Boolean,
+        default: false
+    },
+    summon: {
+        type: Boolean,
+        default: false
+    },
+    gate: {
+        type: Boolean,
+        default: false
+    },
+    zone: {
+        type: ObjectId,
+        default: null
+    },
     note: {
         type: String,
-        default: null,
-        trim: true
+        default: null
     }
 }, {
     id: false,

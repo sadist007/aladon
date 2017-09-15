@@ -17,9 +17,8 @@ const Room = new Schema({
         required: true
     },
     zone: {
-        type: String,
-        default: null,
-        trim: true
+        type: ObjectId,
+        default: null
     },
     exits: [],
     note: {

@@ -47,7 +47,7 @@ const Item = new Schema({
     isLimit: {
         type: Boolean,
         default: false
-    }
+    },
     extra: [String],
     affects: [mAffect],
     effects: [String],
