@@ -1,5 +1,8 @@
 extends layout
 
+block append script
+    script(src="/javascripts/zone.js")
+
 block content
 
     div#zoneDialog.modal(tabindex="-1", role="dialog", aria-labelledby="zoneDialogTitle", aria-hidden="true")
@@ -26,7 +29,7 @@ block content
                                 div.col-sm-9
                                     div.form-check
                                         label.form-check-label
-                                            input.form-check-input(type="checkbox", value="1")
+                                            input.form-check-input(type="checkbox", value="1", name="isQuest")
                             div.form-group.row
                                 label.col-sm-6.text-right Минимальный уровень
                                 div.col-sm-2
@@ -56,6 +59,6 @@ block content
                             Link
 
         each zone in zones
-            h4= zone.name
+            h6= zone.name
         
-        button#insertZone.btn.btn-primary(type="button", data-toggle="modal", data-target="#zoneDialog") Launch demo modal
+        button#insertZone.btn.btn-primary(type="button") Launch demo modal
