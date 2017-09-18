@@ -22,11 +22,6 @@ const Item = new Schema({
         defailt: null,
         trim: true
     },
-    slot: {
-        type: String,
-        defailt: null,
-        trim: true
-    },
     weight: {
         type: Number,
         default: 0
@@ -40,6 +35,11 @@ const Item = new Schema({
         default: 0
     },
     material: {
+        type: String,
+        defailt: null,
+        trim: true
+    },
+    slot: {
         type: String,
         defailt: null,
         trim: true

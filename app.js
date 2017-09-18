@@ -4,11 +4,13 @@ const favicon = require('serve-favicon');
 const logger = require('morgan');
 const cookieParser = require('cookie-parser');
 const bodyParser = require('body-parser');
+const session = require('express-session');
 const methodOverride = require('method-override');
 const mongoose = require('mongoose');
 
 const routes = require('./routes/index');
 const rZone = require('./routes/zone');
+const rNpc = require('./routes/npc');
 
 const app = express();
 
@@ -34,10 +36,16 @@ app.use(require('node-sass-middleware')({
     indentedSyntax: true,
     sourceMap: true
 }));
+app.use(session({
+    secret: '13481hjjklhewh^&*%^&%hkjhliug&*^*5utgGHHyguyugygYHGYUFy',
+    resave: false,
+    saveUninitialized: true
+}));
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', routes);
 app.use('/zone', rZone);
+app.use('/npc', rNpc);
 
 // catch 404 and forward to error handler
 app.use(function (req, res, next) {

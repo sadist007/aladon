@@ -1,0 +1,17 @@
+extends layout
+
+block append script
+
+block content
+
+    form(action="", method="post")
+        div.container
+            div.form-group
+                select.form-control(name="zone")
+                    option(value="null") -- не указано --
+                    each zone in zones
+                        option(value="#{zone._id}" selected= zone._id==selected) #{zone.name}
+            div.form-group
+                input.form-control(type="text", name="name")
+            div.form-group
+                button#add-npc.btn.btn-primary(type="submit") Add NPC

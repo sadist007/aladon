@@ -1,0 +1,65 @@
+extends layout
+
+block append script
+    script(src="/javascripts/zone.js")
+
+block content
+
+    div#zoneDialog.modal(tabindex="-1", role="dialog", aria-labelledby="zoneDialogTitle", aria-hidden="true")
+        div.modal-dialog(role="document")
+            div.modal-content
+                div.modal-header
+                    h5#zoneDialogTitle.modal-title Описание зоны
+                    button.close(type="button", data-dismiss="modal", aria-label="Close")
+                        span(aria-hidden="true") &times;
+                div.modal-body
+                    form#zoneForm
+                        input#_id(type="hidden")
+                        div.container-fluid
+                            div.form-group.row
+                                label.col-sm-3.text-right Название
+                                div.col-sm-9
+                                    input.form-control(name="name")
+                            div.form-group.row
+                                label.col-sm-3.text-right Авторы
+                                div.col-sm-9
+                                    input.form-control(name="authors")
+                            div.form-group.row
+                                label.col-sm-3.text-right Квестовый
+                                div.col-sm-9
+                                    div.form-check
+                                        label.form-check-label
+                                            input.form-check-input(type="checkbox", value="1", name="isQuest")
+                            div.form-group.row
+                                label.col-sm-6.text-right Минимальный уровень
+                                div.col-sm-2
+                                    input.form-control(name="minLev", value="0")
+                            div.form-group.row
+                                label.col-sm-6.text-right Максимальный уровень
+                                div.col-sm-2
+                                    input.form-control(name="maxLev", value="70")
+                div.modal-footer
+                    button.btn.btn-secondary(type="button", data-dismiss="modal")
+                        Закрыть
+                    button#saveZone.btn.btn-primary(type="button")
+                        Сохранить
+    div.container
+        nav.navbar.sticky-top.navbar-toggleable-md.navbar-light.bg-primary
+            button.navbar-toggler.navbar-toggler-right(type="button", data-toggle="collapse", data-target="#navbarSupportedContent", aria-controls="navbarSupportedContent", aria-expanded="false", aria-label="Toggle navigation")
+                span.navbar-toggler-icon
+            a.navbar-brand(href="#")
+                АЛАДОН: #{title}
+            div#navbarSupportedContent.collapse.navbar-collapse
+                ul.navbar-nav.mr-auto
+                    li.nav-item.active
+                        a.nav-link(href="#")
+                            Home
+                    li.nav-item
+                        a.nav-link(href="#")
+                            Link
+
+        each npc in npcs
+            div
+                span #{npc.name}
+        
+        button#insertZone.btn.btn-primary(type="button") Launch demo modal
