@@ -8,6 +8,15 @@ const Mongoose = require('mongoose');
 const Schema = Mongoose.Schema;
 const Mixed = Schema.Types.Mixed;
 const ObjectId = Schema.Types.ObjectId;
+const mItemArmor = require('../models/item/armor');
+const mItemContainer = require('../models/item/container');
+const mItemDrink = require('../models/item/drink');
+const mItemPill = require('../models/item/pill');
+const mItemPotion = require('../models/item/potion');
+const mItemScroll = require('../models/item/scroll');
+const mItemStaff = require('../models/item/staff');
+const mItemWand = require('../models/item/wand');
+const mItemWeapon = require('../models/item/weapon');
 const mAffect = require('../models/affect.js');
 
 const Item = new Schema({
@@ -95,7 +104,7 @@ const Item = new Schema({
     /**
      * За хранение предмета снимаются деньги
      */
-    renta: {
+    rent: {
         type: Boolean,
         default: false
     },
@@ -122,6 +131,7 @@ const Item = new Schema({
      */
     data: {
         type: Mixed,
+        enum: [mItemArmor, mItemContainer, mItemDrink, mItemPill, mItemPotion, mItemScroll, mItemStaff, mItemWand, mItemWeapon, null],
         default: null
     },
 
@@ -145,7 +155,7 @@ const Item = new Schema({
      * Влияние на характеристики персонажа
      */
     affects: {
-        type: [mAffect],
+        type: [mAffect.Schema],
         default: null
     },
 

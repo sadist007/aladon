@@ -11,7 +11,7 @@ const ItemContainer = new Mongoose.Schema({
     /**
      * Ёмкость
      */
-    capacityt: {
+    capacity: {
         type: Number,
         default: 0,
         required: true

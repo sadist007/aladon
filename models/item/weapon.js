@@ -33,6 +33,14 @@ const ItemWeapon = new Mongoose.Schema({
     },
 
     /**
+     * Тип урона
+     */
+    damageType: {
+        type: String,
+        default: null
+    },
+
+    /**
      * Средний урон
      */
     average: {

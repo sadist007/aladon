@@ -1,0 +1,19 @@
+extends layout
+
+block append script
+    script(src="/javascripts/add-item-by-one-line.js")
+
+block content
+
+    form#item-form(action="", method="post")
+        div.container
+            div.form-group
+                textarea.form-control#item-info(type="text", rows="10", name="info")
+            div.form-check
+                label.form-check-label
+                    input.form-check-input#item-rent(type="checkbox", name="rent", value="1")
+                    | renta
+            div.form-group
+                ul.text-danger#item-errors
+            div.form-group
+                button#add-item.btn.btn-primary(type="button") Add Item

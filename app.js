@@ -11,6 +11,7 @@ const mongoose = require('mongoose');
 const routes = require('./routes/index');
 const rZone = require('./routes/zone');
 const rNpc = require('./routes/npc');
+const rItem = require('./routes/item');
 
 const app = express();
 
@@ -46,6 +47,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use('/', routes);
 app.use('/zone', rZone);
 app.use('/npc', rNpc);
+app.use('/item', rItem);
 
 // catch 404 and forward to error handler
 app.use(function (req, res, next) {
