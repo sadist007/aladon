@@ -8,6 +8,7 @@ const Mongoose = require('mongoose');
 const Schema = Mongoose.Schema;
 const Mixed = Schema.Types.Mixed;
 const ObjectId = Schema.Types.ObjectId;
+const mExit = require('../models/exit');
 
 const Room = new Schema({
     name: {
@@ -20,7 +21,11 @@ const Room = new Schema({
         type: ObjectId,
         default: null
     },
-    exits: [],
+    exits: [mExit.Schema],
+    floor: {
+        type: Number,
+        default: 0
+    },
     note: {
         type: String,
         default: null,

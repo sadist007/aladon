@@ -17,8 +17,12 @@ const mAffect = require('../models/affect');
 const mZone = require('../models/zone');
 
 router.get('/add-by-one-line', function (req, res, next) {
-    res.render('add-item-by-one-line', {
-        title: 'Шмотки'
+    mZone.find({}, {}, {sort: {name: 1}}, function (err, zones) {
+        res.render('add-item-by-one-line', {
+            title: 'Шмотки',
+            zones: zones,
+            selected: req.session.itemZone || null
+        });
     });
 });
 
@@ -172,6 +176,11 @@ router.post('/add-by-one-line', function (req, res, next) {
             }
         }
 
+        if (typeof(req.body.zone) !== 'undefined' && req.body.zone !== '' && req.body.zone !== 'null') {
+            req.session.itemZone = req.body.zone;
+            item.zone = req.body.zone;
+        }
+    
         if (typeof(req.body.rent) !== 'undefined') {
             item.rent = true;
         }

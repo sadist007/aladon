@@ -12,6 +12,7 @@ const routes = require('./routes/index');
 const rZone = require('./routes/zone');
 const rNpc = require('./routes/npc');
 const rItem = require('./routes/item');
+const rRoomEditor = require('./routes/room-editor');
 
 const app = express();
 
@@ -48,6 +49,7 @@ app.use('/', routes);
 app.use('/zone', rZone);
 app.use('/npc', rNpc);
 app.use('/item', rItem);
+app.use('/e/', rRoomEditor);
 
 // catch 404 and forward to error handler
 app.use(function (req, res, next) {

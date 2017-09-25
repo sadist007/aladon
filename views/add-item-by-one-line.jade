@@ -9,6 +9,11 @@ block content
         div.container
             div.form-group
                 textarea.form-control#item-info(type="text", rows="10", name="info")
+            div.form-group
+                select.form-control(name="zone")
+                    option(value="null") -- не указано --
+                    each zone in zones
+                        option(value="#{zone._id}" selected= zone._id==selected) #{zone.name}
             div.form-check
                 label.form-check-label
                     input.form-check-input#item-rent(type="checkbox", name="rent", value="1")

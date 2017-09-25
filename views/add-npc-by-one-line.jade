@@ -12,6 +12,7 @@ block content
                     each zone in zones
                         option(value="#{zone._id}" selected= zone._id==selected) #{zone.name}
             div.form-group
-                input.form-control(type="text", name="name")
+                input.form-control(type="text", name="name", autocomplete="off")
+                small.form-text.text-muted align:level:mob
             div.form-group
                 button#add-npc.btn.btn-primary(type="submit") Add NPC
