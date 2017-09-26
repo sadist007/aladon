@@ -25,13 +25,6 @@
     "cors": "*",
     "https": "*",
     "express-session": "*",
-    "md5": "*",
-    "bcrypt": "*",
-    "passport": "*",
-    "passport-google-oauth20": "*",
-    "passport-facebook": "*",
-    "passport-vkontakte": "*",
-    "passport-local": "*",
     "mc": "*",
     "cross-env": "*",
     "method-override": "*"

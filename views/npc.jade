@@ -1,12 +1,12 @@
 extends layout
 
 block append script
-    script(src="/javascripts/zone.js")
+    script(src="/javascripts/npc.js")
 
-block content
+block append content
 
-    div#zoneDialog.modal(tabindex="-1", role="dialog", aria-labelledby="zoneDialogTitle", aria-hidden="true")
-        div.modal-dialog(role="document")
+    div#npcDialog.modal(tabindex="-1", role="dialog", aria-labelledby="npcDialogTitle", aria-hidden="true")
+        div.modal-dialog.modal-lg(role="document")
             div.modal-content
                 div.modal-header
                     h5#zoneDialogTitle.modal-title Описание зоны
@@ -17,35 +17,41 @@ block content
                         input#_id(type="hidden")
                         div.container-fluid
                             div.form-group.row
-                                label.col-sm-3.text-right Название
-                                div.col-sm-9
+                                label.col-sm-12 Видимое название
+                            div.form-group.row
+                                div.col-sm-12
                                     input.form-control(name="name")
                             div.form-group.row
-                                label.col-sm-3.text-right Авторы
-                                div.col-sm-9
-                                    input.form-control(name="authors")
+                                label.col-sm-2 Уровень
+                                label.col-sm-6 Короткое имя
+                                label.col-sm-4 Характер
                             div.form-group.row
-                                label.col-sm-3.text-right Квестовый
-                                div.col-sm-9
-                                    div.form-check
-                                        label.form-check-label
-                                            input.form-check-input(type="checkbox", value="1", name="isQuest")
-                            div.form-group.row
-                                label.col-sm-6.text-right Минимальный уровень
                                 div.col-sm-2
-                                    input.form-control(name="minLev", value="0")
+                                    input.form-control(name="minLev")
+                                div.col-sm-6
+                                    input.form-control(name="minLev")
+                                div.col-sm-4
+                                    select.form-control(name="")
+                                        option(value="n") Нейтрал
+                                        option(value="g") Добрый
+                                        option(value="e") Злой
                             div.form-group.row
-                                label.col-sm-6.text-right Максимальный уровень
-                                div.col-sm-2
-                                    input.form-control(name="maxLev", value="70")
+                                label.col-sm-4 HP
+                                label.col-sm-4 Mana
+                                label.col-sm-4 Шаги
+                            div.form-group.row
+                                div.col-sm-4
+                                    input.form-control(name="hp")
+                                div.col-sm-4
+                                    input.form-control(name="mana")
+                                div.col-sm-4
+                                    input.form-control(name="step")
+
                 div.modal-footer
                     button.btn.btn-secondary(type="button", data-dismiss="modal")
                         Закрыть
                     button#saveZone.btn.btn-primary(type="button")
                         Сохранить
 
-        each npc in npcs
-            div
-                span #{npc.name}
-        
-        button#insertZone.btn.btn-primary(type="button") Launch demo modal
+       
+    button#insertNpc.btn.btn-primary(type="button") Launch demo modal
