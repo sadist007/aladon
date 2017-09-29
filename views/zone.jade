@@ -42,6 +42,9 @@ block content
                     button.btn.btn-secondary(type="button", data-dismiss="modal") Закрыть
                     button#saveZone.btn.btn-primary(type="button") Сохранить
 
+    div.container.text-center.m-2
+        a#insertZone(href="#") добавить зону
+
     table.table.table-xsm
         tr
             th Уровень
@@ -53,5 +56,3 @@ block content
                 td #{zone.minLev} &ndash; #{zone.maxLev}
                 td #{zone.authors}
                 td #{zone.name}
-    
-    button#insertZone.btn.btn-primary(type="button") Launch demo modal

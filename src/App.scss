@@ -1,0 +1,31 @@
+.wpng-intro-container {
+    background-color: #1876D3;
+    color: #FFFFFF;
+    padding: 1rem;
+}
+
+.wpng-media-assets-counters-container {
+    border: 1px solid #818181;
+    padding: 1rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.wpng-epub-container {
+    color: #FFFFFF;
+    background-color: #9250D8;
+    padding: 1rem;
+}
+
+.wpng-summary-container {
+    background-color: #EAF4FF;
+    border: #1876D3;
+    padding: 1rem;
+    margin-top: 3rem;
+}
+
+@media only screen and (min-width : 768px) {
+    .wpng-summary-container {
+        margin-top: 0rem;
+    }
+}

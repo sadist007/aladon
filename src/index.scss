@@ -1,0 +1,65 @@
+$icon-font-path: "~bootstrap-sass/assets/fonts/bootstrap/";
+@import '~bootstrap-sass/assets/stylesheets/_bootstrap.scss';
+
+.wpng-resource-list {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+
+	li {
+		list-style-type: none;
+		width: 33%;
+		display: inline-block;
+
+		a {
+			font-size: 1.1em;
+			font-weight: bold;
+			display: block;
+		}
+	}
+}
+
+.wpng-resource-list-body {
+	padding: 0;
+}
+
+.wpng-resource-list-placeholder {
+	margin: .7em;
+}
+
+.wpng-resource-list-info {
+	color: #999999;
+	font-size: 0.9em;
+
+	span {
+		font-style: italic;
+	}
+}
+
+@media only screen and (min-width : 1600px){
+	.wpng-resource-list {
+		li {
+			width: 25%;
+		}
+	}
+}
+
+@media only screen and (max-width : 900px){
+	.wpng-resource-list {
+		li {
+			width: 50%;
+		}
+	}
+}
+
+@media only screen and (max-width : 700px){
+	.wpng-resource-list {
+		li {
+			width: 100%;
+		}
+	}
+
+	.wpng-resource-list-placeholder {
+		margin: .7em .2em;
+	}
+}

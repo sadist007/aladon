@@ -1,0 +1,425 @@
+{
+	"resources": [	
+		{
+			"name": "Instructor's Manual",
+			"chapter": "Product Level",
+			"type": "Discussion Topic",
+			"url": "https://drbuc2jl8158i.cloudfront.net/canvas/SS13_Halliday_Physics_10e/resource/data/Instructors_Manual/Instructors_Manual.zip"
+		},
+		{
+			"name": "Video Guide",
+			"chapter": "Product Level",
+			"type": "Other",
+			"url": "https://drbuc2jl8158i.cloudfront.net/canvas/SS13_Halliday_Physics_10e/resource/data/Video_Guide.doc"
+		},
+		{
+			"name": "Computerized Test Bank (Mac)",
+			"chapter": "Product Level",
+			"type": "Testing",
+			"url": "https://drbuc2jl8158i.cloudfront.net/canvas/SS13_Halliday_Physics_10e/resource/data/CTB/Halliday_10e.dmg.zip"
+		},
+		{
+			"name": "Computerized Test Bank (Windows)",
+			"chapter": "Product Level",
+			"type": "Testing",
+			"url": "https://drbuc2jl8158i.cloudfront.net/canvas/SS13_Halliday_Physics_10e/resource/data/CTB/Halliday_Physics10e.exe"
+		},
+		{
+			"name": "Chapter 01 Instructor Solutions Manual (Word)",
+			"chapter": "Ch 1. Measurement",
+			"type": "Instructor Solutions",
+			"url": "https://drbuc2jl8158i.cloudfront.net/canvas/SS13_Halliday_Physics_10e/resource/data/ISM/Word/ch01_ISM.DOC"
+		},
+		{
+			"name": "Chapter 01 Instructor Solutions Manual (PDF)",
+			"chapter": "Ch 1. Measurement",
+			"type": "Instructor Solutions",
+			"url": "https://drbuc2jl8158i.cloudfront.net/canvas/SS13_Halliday_Physics_10e/resource/data/ISM/PDF/ch01_ISM.pdf"
+		},
+		{
+			"name": "Chapter 01 Test Bank",
+			"chapter": "Ch 1. Measurement",
+			"type": "Testing",
+			"url": "https://drbuc2jl8158i.cloudfront.net/canvas/SS13_Halliday_Physics_10e/resource/data/test_bank/ch01_test_bank.docx"
+		},
+		{
+			"name": "Chapter 01 Reading Quiz",
+			"chapter": "Ch 1. Measurement",
+			"type": "Other",
+			"url": "https://drbuc2jl8158i.cloudfront.net/canvas/SS13_Halliday_Physics_10e/resource/data/RQs/ch01_RQ.ppt"
+		},
+		{
+			"name": "Chapter 01 Interactive Lecture",
+			"chapter": "Ch 1. Measurement",
+			"type": "Lecture",
+			"url": "https://drbuc2jl8158i.cloudfront.net/canvas/SS13_Halliday_Physics_10e/resource/data/ILQs/ch01_ILQ.ppt"
+		},
+		{
+			"name": "Video Solution Problem 1.2",
+			"chapter": "Ch 1. Measurement",
+			"type": "Video Clips",
+			"url": "https://drbuc2jl8158i.cloudfront.net/canvas/SS13_Halliday_Physics_10e/resource/data/video_solutions/c01/01-002-EOC-prob-HRW/01-002-EOC-prob-HRW.mp4"
+		},
+		{
+			"name": "Video Solution Problem 1.5",
+			"chapter": "Ch 1. Measurement",
+			"type": "Video Clips",
+			"url": "https://drbuc2jl8158i.cloudfront.net/canvas/SS13_Halliday_Physics_10e/resource/data/video_solutions/c01/01-005-EOC-prob-HRW/01-005-EOC-prob-HRW.mp4"
+		},
+		{
+			"name": "Video Solution Problem 1.7",
+			"chapter": "Ch 1. Measurement",
+			"type": "Video Clips",
+			"url": "https://drbuc2jl8158i.cloudfront.net/canvas/SS13_Halliday_Physics_10e/resource/data/video_solutions/c01/01-007-EOC-prob-HRW/01-007-EOC-prob-HRW.mp4"
+		},
+		{
+			"name": "Video Solution Problem 1.8",
+			"chapter": "Ch 1. Measurement",
+			"type": "Video Clips",
+			"url": "https://drbuc2jl8158i.cloudfront.net/canvas/SS13_Halliday_Physics_10e/resource/data/video_solutions/c01/01-008-EOC-prob-HRW/01-008-EOC-prob-HRW.mp4"
+		},
+		{
+			"name": "Video Solution Problem 1.9",
+			"chapter": "Ch 1. Measurement",
+			"type": "Video Clips",
+			"url": "https://drbuc2jl8158i.cloudfront.net/canvas/SS13_Halliday_Physics_10e/resource/data/video_solutions/c01/01-009-EOC-prob-HRW/01-009-EOC-prob-HRW.mp4"
+		},
+		{
+			"name": "Video Solution Problem 1.12",
+			"chapter": "Ch 1. Measurement",
+			"type": "Video Clips",
+			"url": "https://drbuc2jl8158i.cloudfront.net/canvas/SS13_Halliday_Physics_10e/resource/data/video_solutions/c01/01-012-EOC-prob-HRW/01-012-EOC-prob-HRW.mp4"
+		},
+		{
+			"name": "Video Solution Problem 1.27",
+			"chapter": "Ch 1. Measurement",
+			"type": "Video Clips",
+			"url": "https://drbuc2jl8158i.cloudfront.net/canvas/SS13_Halliday_Physics_10e/resource/data/video_solutions/c01/01-027-EOC-prob-HRW/01-027-EOC-prob-HRW.mp4"
+		},
+		{
+			"name": "Video Solution Problem 1.29",
+			"chapter": "Ch 1. Measurement",
+			"type": "Video Clips",
+			"url": "https://drbuc2jl8158i.cloudfront.net/canvas/SS13_Halliday_Physics_10e/resource/data/video_solutions/c01/01-029-EOC-prob-HRW/01-029-EOC-prob-HRW.mp4"
+		},
+		{
+			"name": "Video Solution Problem 1.30",
+			"chapter": "Ch 1. Measurement",
+			"type": "Video Clips",
+			"url": "https://drbuc2jl8158i.cloudfront.net/canvas/SS13_Halliday_Physics_10e/resource/data/video_solutions/c01/01-030-EOC-prob-HRW/01-030-EOC-prob-HRW.mp4"
+		},
+		{
+			"name": "Video Solution Problem 1.35",
+			"chapter": "Ch 1. Measurement",
+			"type": "Video Clips",
+			"url": "https://drbuc2jl8158i.cloudfront.net/canvas/SS13_Halliday_Physics_10e/resource/data/video_solutions/c01/01-035-EOC-prob-HRW/01-035-EOC-prob-HRW.mp4"
+		},
+		{
+			"name": "Video Solution Problem 1.41",
+			"chapter": "Ch 1. Measurement",
+			"type": "Video Clips",
+			"url": "https://drbuc2jl8158i.cloudfront.net/canvas/SS13_Halliday_Physics_10e/resource/data/video_solutions/c01/01-041-EOC-prob-HRW/01-041-EOC-prob-HRW.mp4"
+		},
+		{
+			"name": "Video Solution Problem 1.48",
+			"chapter": "Ch 1. Measurement",
+			"type": "Video Clips",
+			"url": "https://drbuc2jl8158i.cloudfront.net/canvas/SS13_Halliday_Physics_10e/resource/data/video_solutions/c01/01-048-EOC-prob-HRW/01-048-EOC-prob-HRW.mp4"
+		},
+		{
+			"name": "Chapter 01 Lecture Note PowerPoints",
+			"chapter": "Ch 1. Measurement",
+			"type": "Lecture Notes",
+			"url": "https://drbuc2jl8158i.cloudfront.net/canvas/SS13_Halliday_Physics_10e/resource/data/Lecture_PPT/halliday10e_ch01_lecture.pptx"
+		},
+		{
+			"name": "Chapter 02 Instructor Solutions Manual (Word)",
+			"chapter": "Ch 2. Motion Along a Straight Line",
+			"type": "Instructor Solutions",
+			"url": "https://drbuc2jl8158i.cloudfront.net/canvas/SS13_Halliday_Physics_10e/resource/data/ISM/Word/ch02_ISM.doc"
+		},
+		{
+			"name": "Chapter 02 Instructor Solutions Manual (PDF)",
+			"chapter": "Ch 2. Motion Along a Straight Line",
+			"type": "Instructor Solutions",
+			"url": "https://drbuc2jl8158i.cloudfront.net/canvas/SS13_Halliday_Physics_10e/resource/data/ISM/PDF/ch02_ISM.pdf"
+		},
+		{
+			"name": "Chapter 02 Test Bank",
+			"chapter": "Ch 2. Motion Along a Straight Line",
+			"type": "Testing",
+			"url": "https://drbuc2jl8158i.cloudfront.net/canvas/SS13_Halliday_Physics_10e/resource/data/test_bank/ch02_test_bank.docx"
+		},
+		{
+			"name": "Chapter 02 Reading Quiz",
+			"chapter": "Ch 2. Motion Along a Straight Line",
+			"type": "Other",
+			"url": "https://drbuc2jl8158i.cloudfront.net/canvas/SS13_Halliday_Physics_10e/resource/data/RQs/ch02_RQ.ppt"
+		},
+		{
+			"name": "Chapter 02 Interactive Lecture",
+			"chapter": "Ch 2. Motion Along a Straight Line",
+			"type": "Lecture",
+			"url": "https://drbuc2jl8158i.cloudfront.net/canvas/SS13_Halliday_Physics_10e/resource/data/ILQs/ch02_ILQ.ppt"
+		},
+		{
+			"name": "Video Solution Problem 2.1",
+			"chapter": "Ch 2. Motion Along a Straight Line",
+			"type": "Video Clips",
+			"url": "https://drbuc2jl8158i.cloudfront.net/canvas/SS13_Halliday_Physics_10e/resource/data/video_solutions/c02/02-001-EOC-prob-HRW/02-001-EOC-prob-HRW.mp4"
+		},
+		{
+			"name": "Video Solution Problem 2.5",
+			"chapter": "Ch 2. Motion Along a Straight Line",
+			"type": "Video Clips",
+			"url": "https://drbuc2jl8158i.cloudfront.net/canvas/SS13_Halliday_Physics_10e/resource/data/video_solutions/c02/02-005-EOC-prob-HRW/02-005-EOC-prob-HRW.mp4"
+		},
+		{
+			"name": "Video Solution Problem 2.8",
+			"chapter": "Ch 2. Motion Along a Straight Line",
+			"type": "Video Clips",
+			"url": "https://drbuc2jl8158i.cloudfront.net/canvas/SS13_Halliday_Physics_10e/resource/data/video_solutions/c02/02-008-EOC-prob-HRW/02-008-EOC-prob-HRW.mp4"
+		},
+		{
+			"name": "Video Solution Problem 2.11",
+			"chapter": "Ch 2. Motion Along a Straight Line",
+			"type": "Video Clips",
+			"url": "https://drbuc2jl8158i.cloudfront.net/canvas/SS13_Halliday_Physics_10e/resource/data/video_solutions/c02/02-011-EOC-prob-HRW/02-011-EOC-prob-HRW.mp4"
+		},
+		{
+			"name": "Video Solution Problem 2.14",
+			"chapter": "Ch 2. Motion Along a Straight Line",
+			"type": "Video Clips",
+			"url": "https://drbuc2jl8158i.cloudfront.net/canvas/SS13_Halliday_Physics_10e/resource/data/video_solutions/c02/02-014-EOC-prob-HRW/02-014-EOC-prob-HRW.mp4"
+		},
+		{
+			"name": "Video Solution Problem 2.19",
+			"chapter": "Ch 2. Motion Along a Straight Line",
+			"type": "Video Clips",
+			"url": "https://drbuc2jl8158i.cloudfront.net/canvas/SS13_Halliday_Physics_10e/resource/data/video_solutions/c02/02-019-EOC-prob-HRW/02-019-EOC-prob-HRW.mp4"
+		},
+		{
+			"name": "Video Solution Problem 2.23",
+			"chapter": "Ch 2. Motion Along a Straight Line",
+			"type": "Video Clips",
+			"url": "https://drbuc2jl8158i.cloudfront.net/canvas/SS13_Halliday_Physics_10e/resource/data/video_solutions/c02/02-023-EOC-prob-HRW/02-023-EOC-prob-HRW.mp4"
+		},
+		{
+			"name": "Video Solution Problem 2.25",
+			"chapter": "Ch 2. Motion Along a Straight Line",
+			"type": "Video Clips",
+			"url": "https://drbuc2jl8158i.cloudfront.net/canvas/SS13_Halliday_Physics_10e/resource/data/video_solutions/c02/02-025-EOC-prob-HRW/02-025-EOC-prob-HRW.mp4"
+		},
+		{
+			"name": "Video Solution Problem 2.26",
+			"chapter": "Ch 2. Motion Along a Straight Line",
+			"type": "Video Clips",
+			"url": "https://drbuc2jl8158i.cloudfront.net/canvas/SS13_Halliday_Physics_10e/resource/data/video_solutions/c02/02-026-EOC-prob-HRW/02-026-EOC-prob-HRW.mp4"
+		},
+		{
+			"name": "Video Solution Problem 2.34",
+			"chapter": "Ch 2. Motion Along a Straight Line",
+			"type": "Video Clips",
+			"url": "https://drbuc2jl8158i.cloudfront.net/canvas/SS13_Halliday_Physics_10e/resource/data/video_solutions/c02/02-034-EOC-prob-HRW/02-034-EOC-prob-HRW.mp4"
+		},
+		{
+			"name": "Video Solution Problem 2.46",
+			"chapter": "Ch 2. Motion Along a Straight Line",
+			"type": "Video Clips",
+			"url": "https://drbuc2jl8158i.cloudfront.net/canvas/SS13_Halliday_Physics_10e/resource/data/video_solutions/c02/02-046-EOC-prob-HRW/02-046-EOC-prob-HRW.mp4"
+		},
+		{
+			"name": "Video Solution Problem 2.54",
+			"chapter": "Ch 2. Motion Along a Straight Line",
+			"type": "Video Clips",
+			"url": "https://drbuc2jl8158i.cloudfront.net/canvas/SS13_Halliday_Physics_10e/resource/data/video_solutions/c02/02-054-EOC-prob-HRW/02-054-EOC-prob-HRW.mp4"
+		},
+		{
+			"name": "Video Solution Problem 2.56",
+			"chapter": "Ch 2. Motion Along a Straight Line",
+			"type": "Video Clips",
+			"url": "https://drbuc2jl8158i.cloudfront.net/canvas/SS13_Halliday_Physics_10e/resource/data/video_solutions/c02/02-056-EOC-prob-HRW/02-056-EOC-prob-HRW.mp4"
+		},
+		{
+			"name": "Video Solution Problem 2.60",
+			"chapter": "Ch 2. Motion Along a Straight Line",
+			"type": "Video Clips",
+			"url": "https://drbuc2jl8158i.cloudfront.net/canvas/SS13_Halliday_Physics_10e/resource/data/video_solutions/c02/02-060-EOC-prob-HRW/02-060-EOC-prob-HRW.mp4"
+		},
+		{
+			"name": "Video Solution Problem 2.69",
+			"chapter": "Ch 2. Motion Along a Straight Line",
+			"type": "Video Clips",
+			"url": "https://drbuc2jl8158i.cloudfront.net/canvas/SS13_Halliday_Physics_10e/resource/data/video_solutions/c02/02-069-EOC-prob-HRW/02-069-EOC-prob-HRW.mp4"
+		},
+		{
+			"name": "Video Solution Problem 2.75",
+			"chapter": "Ch 2. Motion Along a Straight Line",
+			"type": "Video Clips",
+			"url": "https://drbuc2jl8158i.cloudfront.net/canvas/SS13_Halliday_Physics_10e/resource/data/video_solutions/c02/02-075-EOC-prob-HRW/02-075-EOC-prob-HRW.mp4"
+		},
+		{
+			"name": "Video Solution Problem 2.79",
+			"chapter": "Ch 2. Motion Along a Straight Line",
+			"type": "Video Clips",
+			"url": "https://drbuc2jl8158i.cloudfront.net/canvas/SS13_Halliday_Physics_10e/resource/data/video_solutions/c02/02-079-EOC-prob-HRW/02-079-EOC-prob-HRW.mp4"
+		},
+		{
+			"name": "Video Solution Problem 2.91",
+			"chapter": "Ch 2. Motion Along a Straight Line",
+			"type": "Video Clips",
+			"url": "https://drbuc2jl8158i.cloudfront.net/canvas/SS13_Halliday_Physics_10e/resource/data/video_solutions/c02/02-091-EOC-prob-HRW/02-091-EOC-prob-HRW.mp4"
+		},
+		{
+			"name": "Video Solution Problem 2.93",
+			"chapter": "Ch 2. Motion Along a Straight Line",
+			"type": "Video Clips",
+			"url": "https://drbuc2jl8158i.cloudfront.net/canvas/SS13_Halliday_Physics_10e/resource/data/video_solutions/c02/02-093-EOC-prob-HRW/02-093-EOC-prob-HRW.mp4"
+		},
+		{
+			"name": "Video Solution Problem 2.94",
+			"chapter": "Ch 2. Motion Along a Straight Line",
+			"type": "Video Clips",
+			"url": "https://drbuc2jl8158i.cloudfront.net/canvas/SS13_Halliday_Physics_10e/resource/data/video_solutions/c02/02-094-EOC-prob-HRW/02-094-EOC-prob-HRW.mp4"
+		},
+		{
+			"name": "Video Solution Problem 2.104",
+			"chapter": "Ch 2. Motion Along a Straight Line",
+			"type": "Video Clips",
+			"url": "https://drbuc2jl8158i.cloudfront.net/canvas/SS13_Halliday_Physics_10e/resource/data/video_solutions/c02/02-104-EOC-prob-HRW/02-104-EOC-prob-HRW.mp4"
+		},
+		{
+			"name": "Video Solution Problem 2.112",
+			"chapter": "Ch 2. Motion Along a Straight Line",
+			"type": "Video Clips",
+			"url": "https://drbuc2jl8158i.cloudfront.net/canvas/SS13_Halliday_Physics_10e/resource/data/video_solutions/c02/02-112-EOC-prob-HRW/02-112-EOC-prob-HRW.mp4"
+		},
+		{
+			"name": "Chapter 02 Lecture Note PowerPoints",
+			"chapter": "Ch 2. Motion Along a Straight Line",
+			"type": "Lecture Notes",
+			"url": "https://drbuc2jl8158i.cloudfront.net/canvas/SS13_Halliday_Physics_10e/resource/data/Lecture_PPT/halliday10e_ch02_lecture.pptx"
+		},
+		{
+			"name": "Chapter 03 Instructor Solutions Manual (Word)",
+			"chapter": "Ch 3. Vectors",
+			"type": "Instructor Solutions",
+			"url": "https://drbuc2jl8158i.cloudfront.net/canvas/SS13_Halliday_Physics_10e/resource/data/ISM/Word/ch03_ISM.doc"
+		},
+		{
+			"name": "Chapter 03 Instructor Solutions Manual (PDF)",
+			"chapter": "Ch 3. Vectors",
+			"type": "Instructor Solutions",
+			"url": "https://drbuc2jl8158i.cloudfront.net/canvas/SS13_Halliday_Physics_10e/resource/data/ISM/PDF/ch03_ISM.pdf"
+		},
+		{
+			"name": "Chapter 03 Test Bank",
+			"chapter": "Ch 3. Vectors",
+			"type": "Testing",
+			"url": "https://drbuc2jl8158i.cloudfront.net/canvas/SS13_Halliday_Physics_10e/resource/data/test_bank/ch03_test_bank.docx"
+		},
+		{
+			"name": "Chapter 03 Reading Quiz",
+			"chapter": "Ch 3. Vectors",
+			"type": "Other",
+			"url": "https://drbuc2jl8158i.cloudfront.net/canvas/SS13_Halliday_Physics_10e/resource/data/RQs/ch03_RQ.ppt"
+		},
+		{
+			"name": "Chapter 03 Interactive Lecture",
+			"chapter": "Ch 3. Vectors",
+			"type": "Lecture",
+			"url": "https://drbuc2jl8158i.cloudfront.net/canvas/SS13_Halliday_Physics_10e/resource/data/ILQs/ch03_ILQ.ppt"
+		},
+		{
+			"name": "Video Solution Problem 3.1",
+			"chapter": "Ch 3. Vectors",
+			"type": "Video Clips",
+			"url": "https://drbuc2jl8158i.cloudfront.net/canvas/SS13_Halliday_Physics_10e/resource/data/video_solutions/c03/03-001-EOC-prob-HRW/03-001-EOC-prob-HRW.mp4"
+		},
+		{
+			"name": "Video Solution Problem 3.3",
+			"chapter": "Ch 3. Vectors",
+			"type": "Video Clips",
+			"url": "https://drbuc2jl8158i.cloudfront.net/canvas/SS13_Halliday_Physics_10e/resource/data/video_solutions/c03/03-003-EOC-prob-HRW/03-003-EOC-prob-HRW.mp4"
+		},
+		{
+			"name": "Video Solution Problem 3.9",
+			"chapter": "Ch 3. Vectors",
+			"type": "Video Clips",
+			"url": "https://drbuc2jl8158i.cloudfront.net/canvas/SS13_Halliday_Physics_10e/resource/data/video_solutions/c03/03-009-EOC-prob-HRW/03-009-EOC-prob-HRW.mp4"
+		},
+		{
+			"name": "Video Solution Problem 3.10",
+			"chapter": "Ch 3. Vectors",
+			"type": "Video Clips",
+			"url": "https://drbuc2jl8158i.cloudfront.net/canvas/SS13_Halliday_Physics_10e/resource/data/video_solutions/c03/03-010-EOC-prob-HRW/03-010-EOC-prob-HRW.mp4"
+		},
+		{
+			"name": "Video Solution Problem 3.11",
+			"chapter": "Ch 3. Vectors",
+			"type": "Video Clips",
+			"url": "https://drbuc2jl8158i.cloudfront.net/canvas/SS13_Halliday_Physics_10e/resource/data/video_solutions/c03/03-011-EOC-prob-HRW/03-011-EOC-prob-HRW.mp4"
+		},
+		{
+			"name": "Video Solution Problem 3.12",
+			"chapter": "Ch 3. Vectors",
+			"type": "Video Clips",
+			"url": "https://drbuc2jl8158i.cloudfront.net/canvas/SS13_Halliday_Physics_10e/resource/data/video_solutions/c03/03-012-EOC-prob-HRW/03-012-EOC-prob-HRW.mp4"
+		},
+		{
+			"name": "Video Solution Problem 3.17",
+			"chapter": "Ch 3. Vectors",
+			"type": "Video Clips",
+			"url": "https://drbuc2jl8158i.cloudfront.net/canvas/SS13_Halliday_Physics_10e/resource/data/video_solutions/c03/03-017-EOC-prob-HRW/03-017-EOC-prob-HRW.mp4"
+		},
+		{
+			"name": "Video Solution Problem 3.20",
+			"chapter": "Ch 3. Vectors",
+			"type": "Video Clips",
+			"url": "https://drbuc2jl8158i.cloudfront.net/canvas/SS13_Halliday_Physics_10e/resource/data/video_solutions/c03/03-020-EOC-prob-HRW/03-020-EOC-prob-HRW.mp4"
+		},
+		{
+			"name": "Video Solution Problem 3.30",
+			"chapter": "Ch 3. Vectors",
+			"type": "Video Clips",
+			"url": "https://drbuc2jl8158i.cloudfront.net/canvas/SS13_Halliday_Physics_10e/resource/data/video_solutions/c03/03-030-EOC-prob-HRW/03-030-EOC-prob-HRW.mp4"
+		},
+		{
+			"name": "Video Solution Problem 3.35",
+			"chapter": "Ch 3. Vectors",
+			"type": "Video Clips",
+			"url": "https://drbuc2jl8158i.cloudfront.net/canvas/SS13_Halliday_Physics_10e/resource/data/video_solutions/c03/03-035-EOC-prob-HRW/03-035-EOC-prob-HRW.mp4"
+		},
+		{
+			"name": "Video Solution Problem 3.38",
+			"chapter": "Ch 3. Vectors",
+			"type": "Video Clips",
+			"url": "https://drbuc2jl8158i.cloudfront.net/canvas/SS13_Halliday_Physics_10e/resource/data/video_solutions/c03/03-038-EOC-prob-HRW/03-038-EOC-prob-HRW.mp4"
+		},
+		{
+			"name": "Video Solution Problem 3.39",
+			"chapter": "Ch 3. Vectors",
+			"type": "Video Clips",
+			"url": "https://drbuc2jl8158i.cloudfront.net/canvas/SS13_Halliday_Physics_10e/resource/data/video_solutions/c03/03-039-EOC-prob-HRW/03-039-EOC-prob-HRW.mp4"
+		},
+		{
+			"name": "Video Solution Problem 3.42",
+			"chapter": "Ch 3. Vectors",
+			"type": "Video Clips",
+			"url": "https://drbuc2jl8158i.cloudfront.net/canvas/SS13_Halliday_Physics_10e/resource/data/video_solutions/c03/03-042-EOC-prob-HRW/03-042-EOC-prob-HRW.mp4"
+		},
+		{
+			"name": "Video Solution Problem 3.57",
+			"chapter": "Ch 3. Vectors",
+			"type": "Video Clips",
+			"url": "https://drbuc2jl8158i.cloudfront.net/canvas/SS13_Halliday_Physics_10e/resource/data/video_solutions/c03/03-057-EOC-prob-HRW/03-057-EOC-prob-HRW.mp4"
+		},
+		{
+			"name": "Chapter 03 Lecture Note PowerPoints",
+			"chapter": "Ch 3. Vectors",
+			"type": "Lecture Notes",
+			"url": "https://drbuc2jl8158i.cloudfront.net/canvas/SS13_Halliday_Physics_10e/resource/data/Lecture_PPT/halliday10e_ch03_lecture.pptx"
+		}
+	]
+}
+
